@@ -1,0 +1,29 @@
+<!--jisuanqi.wxml-->
+    <view class="section">
+        <view class="section__title">计算器</view>
+        <view class="section">
+            <input placeholder="" auto-focus value="{{num}}"/>
+        </view>
+        <view class="section">
+            <text>{{all_num}}</text>
+        </view>
+        <view class="section">
+             <button class="button" bindtap="clickMe()">1</button>
+             <button class="button" bindtap="clickMe(2)">2</button>
+             <button class="button" bindtap="clickMe(3)">3</button>
+             <button class="button" bindtap="clickMe(+)">+</button>
+             <button class="button" bindtap="clickMe(4)">4</button>
+             <button class="button" bindtap="clickMe(5)">5</button>
+             <button class="button" bindtap="clickMe(6)">6</button>
+             <button class="button" bindtap="clickMe(-)">-</button>
+              <button class="button" bindtap="clickMe(7)">7</button>
+              <button class="button" bindtap="clickMe(8)">8</button>
+              <button class="button" bindtap="clickMe(9)">9</button>
+              <button class="button" bindtap="clickMe(*)">*</button>
+              <button class="button" bindtap="clickMe(C)">C</button>
+              <button class="button" bindtap="clickMe(0)">0</button>
+              <button class="button" bindtap="clickMe(=)" hover-class="dengyu">=</button>
+              <button class="button" bindtap="clickMe(/)">/</button>
+          </view>
+    </view>
+
