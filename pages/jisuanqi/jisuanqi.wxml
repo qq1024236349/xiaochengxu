@@ -8,10 +8,10 @@
             <text>{{all_num}}</text>
         </view>
         <view class="section">
-             <button class="button" bindtap="clickMe()">1</button>
-             <button class="button" bindtap="clickMe(2)">2</button>
-             <button class="button" bindtap="clickMe(3)">3</button>
-             <button class="button" bindtap="clickMe(+)">+</button>
+             <button class="button" bindtap="clickNum1">1</button>
+             <button class="button" bindtap="clickNum2">2</button>
+             <button class="button" bindtap="clickNum3">3</button>
+             <button class="button" bindtap="clickFh1">+</button>
              <button class="button" bindtap="clickMe(4)">4</button>
              <button class="button" bindtap="clickMe(5)">5</button>
              <button class="button" bindtap="clickMe(6)">6</button>
