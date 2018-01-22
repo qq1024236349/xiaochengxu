@@ -1,0 +1,29 @@
+<!--jisuanqi.wxml-->
+    <view class="section">
+        <view class="section__title">计算器</view>
+        <view class="section">
+            <text class="shuru">0</text>
+        </view>
+        <view class="section">
+            <text>{{all_num}}</text>
+        </view>
+        <view class="section">
+             <button class="button" bindtap="clickNum1">1</button>
+             <button class="button" bindtap="clickNum2">2</button>
+             <button class="button" bindtap="clickNum3">3</button>
+             <button class="button" bindtap="clickFh1">+</button>
+             <button class="button" bindtap="clickNum4">4</button>
+             <button class="button" bindtap="clickNum5">5</button>
+             <button class="button" bindtap="clickNum6">6</button>
+             <button class="button" bindtap="clickFh2">-</button>
+              <button class="button" bindtap="clickNum7">7</button>
+              <button class="button" bindtap="clickNum8">8</button>
+              <button class="button" bindtap="clickNum9">9</button>
+              <button class="button" bindtap="clickFh3">*</button>
+              <button class="button" bindtap="clickFh4">C</button>
+              <button class="button" bindtap="clickNum(0)">0</button>
+              <button class="button" bindtap="clickFh5" hover-class="dengyu">=</button>
+              <button class="button" bindtap="clickFh6">/</button>
+          </view>
+    </view>
+

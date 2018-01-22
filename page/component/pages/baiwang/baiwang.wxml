@@ -1,0 +1,11 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: '百旺王者答题'}}"/>
+  <view class="page-body">
+    <view class="btn-area" id="buttonContainer">
+      <button type="primary">页面主操作 Normal</button>
+    </view>
+  <template is="foot" />
+</view>
